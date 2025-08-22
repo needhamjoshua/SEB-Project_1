@@ -1,0 +1,11 @@
+.hero-banner {
+  width: 100%;              /* banner width */
+  height: 200px;            /* banner height */
+  object-fit: contain;      /* scales full image inside */
+  background: #000;      /* background fill */
+}
+
+.navbar {
+  box-shadow: 0 2px 8px rgba(0,0,0,.25);
+  border-top: 4px solid var(--bs-info); /* accent */
+}

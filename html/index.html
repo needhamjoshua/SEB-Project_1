@@ -11,51 +11,166 @@
 <body>
     <header>
         <img src="../images/SacramentoRunningEventsBanner_resize.png" alt="Sacramento Running Events Banner" class="hero-banner">
+
+        <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                    <a class="nav-link active" href="#">Home
+                        <span class="visually-hidden">(current)</span>
+                    </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Locations</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Sacramento</a>
+                        <a class="dropdown-item" href="#">Davis</a>
+                        <a class="dropdown-item" href="#">Clarksburg</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">All Locations</a>
+                    </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Distances</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">5K</a>
+                        <a class="dropdown-item" href="#">10K</a>
+                        <a class="dropdown-item" href="#">Half Marathon</a>
+                        <a class="dropdown-item" href="#">20-Mile</a>
+                        <a class="dropdown-item" href="#">Marathon</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">All Distances</a>
+                    </div>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Contact/More Info</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
     </header>
 
-    <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarColor03">
-        <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-            <a class="nav-link active" href="#">Home
-                <span class="visually-hidden">(current)</span>
-            </a>
-            </li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Event Locations</a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Sacramento</a>
-                <a class="dropdown-item" href="#">Davis</a>
-                <a class="dropdown-item" href="#">Clarksburg</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">All Locations</a>
-            </div>
-            </li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Event Distances</a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">5K</a>
-                <a class="dropdown-item" href="#">10K</a>
-                <a class="dropdown-item" href="#">Half Marathon</a>
-                <a class="dropdown-item" href="#">20-Mile</a>
-                <a class="dropdown-item" href="#">Marathon</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">All Distances</a>
-            </div>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Contact/More Info</a>
-            </li>
-        </ul>
-        </div>
+    <main class="container my-5">
+
+  <!-- Next Event -->
+  <section aria-labelledby="next-event-title" class="mb-5">
+    <h2 id="next-event-title" class="h3">Next Event</h2>
+    <div class="d-flex align-items-center event-card">
+      <img src="../images/labor-day.png"
+          alt="Event Poster"
+          class="event-thumb me-3">
+      <div>
+        <h3 class="h4">Davis Labor Day Run</h3>
+        <p class="mb-1">
+          <time datetime="2025-09-01">Monday, September 1, 2025</time> • Davis, CA
+        </p>
+        <p class="mb-2">Fast, flat course through downtown and South Davis.</p>
+        <a href="placeholder.html" class="btn btn-primary btn-sm">Details</a>
+      </div>
     </div>
-    </nav>
-    
+  </section>
+
+
+  <!-- Locations -->
+  <section aria-labelledby="locations-title" class="mb-5">
+    <h2 id="locations-title" class="h3">Featured Locations</h2>
+    <div class="row g-4">
+      <article class="col-md-4">
+        <a href="events.html#sacramento" class="text-decoration-none">
+          <div class="card h-100">
+            <img src="../images/sacramento-tower-bridge.png" class="location-thumb" alt="Sacramento Tower Bridge">
+            <div class="card-body">
+              <h3 class="card-title h5 mb-0">Sacramento</h3>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="col-md-4">
+        <a href="events.html#davis" class="text-decoration-none">
+          <div class="card h-100">
+            <img src="../images/davis-greenbelt.png" class="location-thumb" alt="Davis Greebelt">
+            <div class="card-body">
+              <h3 class="card-title h5 mb-0">Davis</h3>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="col-md-4">
+        <a href="events.html#clarksburg" class="text-decoration-none">
+          <div class="card h-100">
+            <img src="../images/clarksburg-road.png" class="location-thumb" alt="Clarksburg Road">
+            <div class="card-body">
+              <h3 class="card-title h5 mb-0">Clarksburg</h3>
+            </div>
+          </div>
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section aria-labelledby="testimonials-title" class="mb-5">
+    <h2 id="testimonials-title" class="h3">Testimonials</h2>
+    <div id="testimonials" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <blockquote class="blockquote text-center p-4">
+            <p>“Found my first 10K here - super helpful.”</p>
+            <footer class="blockquote-footer">Avery, Sacramento, CA</footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item">
+          <blockquote class="blockquote text-center p-4">
+            <p>“Great overview of local races by distance.”</p>
+            <footer class="blockquote-footer">Miguel, Davis, CA</footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item">
+          <blockquote class="blockquote text-center p-4">
+            <p>“Registered for a 5K as a motivator to start exercising.”</p>
+            <footer class="blockquote-footer">Seth, Fairfield, CA</footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item">
+          <blockquote class="blockquote text-center p-4">
+            <p>“Good selection of distances - even a full marathon!”</p>
+            <footer class="blockquote-footer">Sarah, Clarksbrg, CA</footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item">
+          <blockquote class="blockquote text-center p-4">
+            <p>“Moved to Davis for school and found events right away.”</p>
+            <footer class="blockquote-footer">Katie, Davis, CA</footer>
+          </blockquote>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonials" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonials" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light text-center py-3 mt-5">
+  <p class="mb-0">&copy; 2025 Sacramento Running Events</p>
+  <nav>
+    <a href="#" class="text-light mx-2">Home</a>
+    <a href="#" class="text-light mx-2">Events</a>
+    <a href="#" class="text-light mx-2">Contact</a>
+  </nav>
+</footer>
+
+</main>
+ 
     <script
      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" 

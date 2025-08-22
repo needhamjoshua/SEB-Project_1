@@ -7,5 +7,21 @@
 
 .navbar {
   box-shadow: 0 2px 8px rgba(0,0,0,.25);
-  border-top: 4px solid var(--bs-info); /* accent */
+  border-top: 4px solid var(--bs-info);     /* accent */
+}
+
+.event-card .row { align-items: center; }
+
+.event-thumb {
+  max-width: 100%; /* sizes image to container scale */
+  height: 220px;
+  object-fit: contain; /* no crop */
+  display: block;
+}
+
+.location-thumb {
+  max-width: 100%;
+  height: 350px;
+  object-fit: cover;    /* fills box + crops edges */
+  display: block;
 }

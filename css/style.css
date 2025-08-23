@@ -17,6 +17,8 @@
   height: 220px;
   object-fit: contain; /* no crop */
   display: block;
+  border-radius:.25rem;
+  background: rgba(255,255,255,.06);
 }
 
 .location-thumb {
@@ -24,4 +26,34 @@
   height: 350px;
   object-fit: cover;    /* fills box + crops edges */
   display: block;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  border: none;
+  color: white;
+}
+.btn-primary:hover {
+  background: linear-gradient(45deg, #0072ff, #00c6ff);
+}
+
+.accordion {
+  max-width: 1000px;
+  margin: 0 auto;     /* center alignment */
+}
+
+.accordion-button {
+  border: 0px solid var(--bs-warning);
+  box-shadow: 0 0 10px var(--bs-warning);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #1a0033;
+  color: var(--bs-warning);
+  box-shadow: 0 0 15px #00ffff;
+}
+
+.accordion-button.collapsed {
+  background-color: #0f001a;
+  color:rgb(97, 248, 241);
 }

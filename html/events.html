@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacramento Running Events - Events</title>
+
+    <!-- CSS Files (bootswatch theme: Vapor) -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Header Content -->
+    <header>
+
+        <!-- Banner -->
+        <img src="../images/SacramentoRunningEventsBanner_resize.png" alt="Sacramento Running Events Banner" class="hero-banner">
+
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor03">
+              <ul class="navbar-nav me-auto">
+
+                <!-- Home -->
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <!-- Events -->
+                <li class="nav-item">
+                  <a class="nav-link active" href="events.html">Events
+                    <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Event List</a>
+                    <ul class="dropdown-menu bg-dark">
+
+                      <!-- Clarksburg -->
+                      <li><h6 class="dropdown-header text-success">Clarksburg</h6></li>
+                      <li><a class="dropdown-item text-light" href="./events/clarksburg-country.html">Clarksburg Country Run</a></li>
+                      <li><hr class="dropdown-divider"></li>
+
+                      <!-- Davis -->
+                      <li><h6 class="dropdown-header text-success">Davis</h6></li>
+                      <li><a class="dropdown-item text-light" href="./events/davis-labor-day.html">Davis Labor Day</a></li>
+                      <li><a class="dropdown-item text-light" href="./events/davis-turkey-trot.html">Davis Turkey Trot</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      
+                      <!-- Sacramento -->
+                      <li><h6 class="dropdown-header text-success">Sacramento</h6></li>
+                      <li><a class="dropdown-item text-light" href="./events/buffalo-stampede.html">Buffalo Stampede</a></li>
+                      <li><a class="dropdown-item text-light" href="./events/urban-cow.html">Urban Cow</a></li>
+                      <li><a class="dropdown-item text-light" href="./events/cim.html">California Interational Marathon</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      
+                      <!-- All Events -->
+                      <a class="dropdown-item text-light" href="events.html">All Events</a>
+                    </ul>
+                  </li>
+
+                  <!-- Contact/More Info -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact/More Info</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+    </header>
+
+    <!-- Events by Distance -->
+    <section id="distances" class="py-5 mb-5 by-distance">
+        <h2 class="h4 mb-3">Events by Distance</h2>
+
+        <!-- Accordion -->
+        <div class="accordion py-2" id="distanceAcc">
+
+            <!-- 5K -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="5k-h">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#5k" aria-expanded="false" aria-controls="5k">5K
+                    </button>
+                </h2>
+                <div id="5k" class="accordion-collapse collapse" data-bs-parent="#distanceAcc">
+                    <div class="accordion-body py-2">
+                        <ul class="mb-0">
+                            <li><a href="#davis-labor-day">Davis Labor Day Run</a> — Davis (Sep 1)</li>
+                            <li><a href="#davis-turkey-trot">Davis Turkey Trot</a> — Davis (Nov 22)</li>
+                            <li><a href="#clarksburg-country">Clarksburg Country Run</a> — Clarksburg (Nov 2)</li>
+                            <li><a href="#urban-cow">Urban Cow</a> — Sacramento (Sep 28)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4-Mile -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="4m-h">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#4m" aria-expanded="false" aria-controls="4m">4-Mile
+                    </button>
+                </h2>
+                <div id="4m" class="accordion-collapse collapse" data-bs-parent="#distanceAcc">
+                    <div class="accordion-body py-2">
+                        <ul class="mb-0">
+                            <li><a href="#buffalo-stampede">Buffalo Stampede</a> — Sacramento (Sep 14)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10K -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="10k-h">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#10k" aria-expanded="false" aria-controls="10k">10K
+                    </button>
+                </h2>
+                <div id="10k" class="accordion-collapse collapse" data-bs-parent="#distanceAcc">
+                    <div class="accordion-body py-2">
+                        <ul class="mb-0">
+                            <li><a href="#davis-labor-day">Davis Labor Day Run</a> — Davis (Sep 1)</li>
+                            <li><a href="#davis-turkey-trot">Davis Turkey Trot</a> — Davis (Nov 22)</li>
+                            <li><a href="#clarksburg-country">Clarksburg Country Run</a> — Clarksburg (Nov 2)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10-Mile -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="10m-h">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#10m" aria-expanded="false" aria-controls="10m">10-Mile
+                    </button>
+                </h2>
+                <div id="10m" class="accordion-collapse collapse" data-bs-parent="#distanceAcc">
+                    <div class="accordion-body py-2">
+                        <ul class="mb-0">
+                            <li><a href="#buffalo-stampede">Buffalo Stampede</a> — Sacramento (Sep 14)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Half Marathon -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="hm-h">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#hm" aria-expanded="false" aria-controls="hm">Half Marathon
+                    </button>
+                </h2>
+                <div id="hm" class="accordion-collapse collapse" data-bs-parent="#distanceAcc">
+                    <div class="accordion-body py-2">
+                        <ul class="mb-0">
+                            <li><a href="#davis-turkey-trot">Davis Turkey Trot</a> — Davis (Nov 22)</li>
+                            <li><a href="#urban-cow">Urban Cow</a> — Sacramento (Sep 28)</li>
+                            <li><a href="#clarksburg-country">Clarksburg Country Run</a> — Clarksburg (Nov 2)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Marathon -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="fm-h">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#fm" aria-expanded="false" aria-controls="fm">Marathon
+                    </button>
+                </h2>
+                <div id="fm" class="accordion-collapse collapse" data-bs-parent="#distanceAcc">
+                    <div class="accordion-body py-2">
+                        <ul class="mb-0">
+                            <li><a href="#cim">California International Marathon (CIM)</a> — Sacramento (Dec 7)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Events by Location -->
+    <section id="locations" class="mb-5">
+        <h2 class="h4 mb-3">Events by Location</h2>
+
+        <div class="row g-4">
+
+            <!-- Clarksburg -->
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 id="clarksburg" class="h5 mb-3">Clarksburg</h3>
+
+                        <!-- Card 1 -->
+                        <article id="clarksburg-country" class="card mb-3 shadow-sm">
+                            <img src="../images/events/clarksburg-country.png" alt="Clarksburg Country Run poster" class="event-thumb">
+                            <div class="card-body">
+                                <h4 class="card-title h6 mb-1">Clarksburg Country Run</h4>
+                                <p class="mb-1"><time datetime="2025-11-02">Sun, Nov 2, 2025</time> • 5K, 10K, Half</p>
+                                <a href="event.html" class="btn btn-sm btn-primary">Details</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Davis -->
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 id="davis" class="h5 mb-3">Davis</h3>
+
+                        <!-- Card 1 -->
+                        <article id="davis-labor-day" class="card mb-3 shadow-sm">
+                            <img src="../images/events/labor-day.png" alt="Davis Labor Day Run poster" class="event-thumb">
+                            <div class="card-body">
+                                <h4 class="card-title h6 mb-1">Davis Labor Day Run</h4>
+                                <p class="mb-1"><time datetime="2025-09-01">Mon, Sep 1, 2025</time> • 5K, 10K</p>
+                                <a href="event.html" class="btn btn-sm btn-primary">Details</a>
+                            </div>
+                        </article>
+
+                        <!-- Card 2 -->
+                        <article id="davis-turkey-trot" class="card mb-3 shadow-sm">
+                            <img src="../images/events/davis-turkey-trot.png" alt="Davis Turkey Trot poster" class="event-thumb">
+                            <div class="card-body">
+                                <h4 class="card-title h6 mb-1">Davis Turkey Trot</h4>
+                                <p class="mb-1"><time datetime="2025-11-22">Sat, Nov 22, 2025</time> • 5K, 10K, Half</p>
+                                <a href="event.html" class="btn btn-sm btn-primary">Details</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>            
+
+            <!-- Sacramento -->
+            <div class="col-lg-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 id="sacramento" class="h5 mb-3">Sacramento</h3>
+
+                        <!-- Card 1 -->
+                        <article id="buffalo-stampede" class="card mb-3 shadow-sm">
+                            <img src="../images/events/buffalo-stampede.png" alt="Buffalo Stampede poster" class="event-thumb">
+                            <div class="card-body">
+                                <h4 class="card-title h6 mb-1">Buffalo Stampede</h4>
+                                <p class="mb-1"><time datetime="2025-09-14">Sun, Sep 14, 2025</time> • 4-mile, 10-mile</p>
+                                <a href="event.html" class="btn btn-sm btn-primary">Details</a>
+                            </div>
+                        </article>
+
+                        <!-- Card 2 -->
+                        <article id="urban-cow" class="card mb-3 shadow-sm">
+                            <img src="../images/events/urban-cow.png" alt="Urban Cow poster" class="event-thumb">
+                            <div class="card-body">
+                                <h4 class="card-title h6 mb-1">Urban Cow</h4>
+                                <p class="mb-1"><time datetime="2025-09-28">Sun, Sep 28, 2025</time> • 5K, Half</p>
+                                <a href="event.html" class="btn btn-sm btn-primary">Details</a>
+                            </div>
+                        </article>
+
+                        <!-- Card 3 -->
+                        <article id="cim" class="card mb-3 shadow-sm">
+                            <img src="../images/events/cim.png" alt="California International Marathon poster" class="event-thumb">
+                            <div class="card-body">
+                                <h4 class="card-title h6 mb-1">California International Marathon (CIM)</h4>
+                                <p class="mb-1"><time datetime="2025-12-07">Sun, Dec 7, 2025</time> • Marathon</p>
+                                <a href="event.html" class="btn btn-sm btn-primary">Details</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+      <p class="mb-0">&copy; 2025 Sacramento Running Events</p>
+      <nav>
+        <a href="index.html" class="text-light mx-2">Home</a>
+        <a href="events.html" class="text-light mx-2">Events</a>
+        <a href="contact.html" class="text-light mx-2">Contact</a>
+      </nav>
+    </footer>
+
+    <!-- Bootstrap Bundle -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" 
+        crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

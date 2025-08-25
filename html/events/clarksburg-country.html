@@ -77,7 +77,127 @@
           </div>
         </nav>
 
+        <!-- Event Title -->
+        <h1>Clarksburg Country Run</h1>
+
     </header>
+
+    <!-- Event Information -->
+    <section class="event-info my-4">
+        <div class="d-flex align-items-start">
+            <img src="../../images/events/clarksburg-country.png"
+                alt="Clarksburg Country Run poster"
+                class="me-3" style="max-width:150px;">
+            <div class="event-text py-4">
+                <p><strong>Date:</strong> Sunday, November 2, 2025</p>
+                <p><strong>Location:</strong> Clarksburg, CA</p>
+                <p>
+                    Break away from the city and enjoy small town hospitality.
+                    A variety of race distances to enjoy, and a favorite training for the CIM.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form -->
+    <section class="event-registration my-4">
+        <div class="container">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h2 class="h4 mb-3">Registration</h2>
+
+                <form action="https://formspree.io/f/mqadzyrp" method="post" class="row g-3">
+
+                    <!-- Hidden event info sent to formspree -->
+                    <input type="hidden" name="event_name" value="Clarksburg Country Run">
+                    <input type="hidden" name="event_date" value="2025-11-02">
+                    <input type="hidden" name="event_location" value="Clarksburg">
+
+                    <!-- First Name -->
+                    <div class="col-md-6">
+                        <label for="firstName" class="form-label">First Name<span class="text-danger">*</span></label>
+                        <input id="firstName" name="first_name" type="text" class="form-control" required>
+                    </div>
+
+                    <!-- Last Name -->
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last Name<span class="text-danger">*</span></label>
+                        <input id="lastName" name="last_name" type="text" class="form-control" required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email<span class="text-danger">*</span></label>
+                        <input id="email" name="email" type="email" class="form-control" required>
+                    </div>
+
+                    <!-- Distance -->
+                    <fieldset class="col-12">
+                        <legend class="col-form-label pt-0">Choose a distance<span class="text-danger">*</span></legend>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="distance" id="dist5k" value="5k" required>
+                            <label class="form-check-label" for="dist5k">5K</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="distance" id="dist10k" value="10k">
+                            <label class="form-check-label" for="dist10k">10K</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="distance" id="disthm" value="hm">
+                            <label class="form-check-label" for="disthm">Half Marathon</label>
+                        </div>
+                    </fieldset>
+
+                    <!-- Shirt Size -->
+                    <fieldset class="col-12">
+                        <legend class="col-form-label pt-0">T-Shirt Size<span class="text-danger">*</span></legend>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="shirt_size" id="sizeS" value="Small" required>
+                            <label class="form-check-label" for="sizeS">S</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="shirt_size" id="sizeM" value="Medium">
+                            <label class="form-check-label" for="sizeM">M</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="shirt_size" id="sizeL" value="Large">
+                            <label class="form-check-label" for="sizeL">L</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="shirt_size" id="sizeXL" value="XL">
+                            <label class="form-check-label" for="sizeXL">XL</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="shirt_size" id="sizeNone" value="None">
+                            <label class="form-check-label" for="sizeNone">None ($10 off registration)</label>
+                        </div>
+                    </fieldset>
+
+                    <!-- Waiver -->
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="waiver" name="waiver" required>
+                            <label class="form-check-label" for="waiver">
+                            I agree to the waiver
+                            <span class="text-danger">*</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Submit -->
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Cash Payment Alert -->
+    <div class="alert alert-info text-center mt-3" role="alert">
+        Payment will be collected in cash at the event. Registering online guarantees your spot.
+    </div>
 
     <!-- Footer -->
     <footer class="bg-dark text-light text-center py-3 mt-5">

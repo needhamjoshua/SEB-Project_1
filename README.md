@@ -6,7 +6,7 @@ Project 1: Basic Business or Personal Website
 Joshua D. Needham
 
 ## Overview:
-- This project is a static website I built for my Software Engineering Bootcamp. It highlights Sacramento-area running events, with pages for each race, event details, and a simple registration form. The goal is to practice structuring a multi-page site with HTML and CSS, apply a CSS framework, and integrate a third-party service for handling form submissions. The site is framed as a community-driven project to provide clear, accessible information for runners in Sacramento, Davis, and Clarksburg. 
+ This project is a website I built for my Software Engineering Bootcamp. It highlights Sacramento-area running events, with pages for each race, event details, and a simple registration form. The goal is to practice structuring a multi-page site with HTML and CSS, apply a CSS framework, and integrate a third-party service for handling form submissions. The site is framed as a community-driven project to provide clear, accessible information for runners in Sacramento, Davis, and Clarksburg. 
 
 ## How to Use / Functionality:
 - Homepage showcases the next event

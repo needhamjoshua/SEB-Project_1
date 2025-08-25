@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sacramento Running Events - Davis Labor Day</title>
+    <title>Sacramento Running Events - Urban Cow</title>
 
     <!-- CSS Files (bootswatch theme: Vapor) -->
-    <link rel="stylesheet" href="../../css/bootstrap.css">
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -17,12 +17,12 @@
     <header>
         
         <!-- Banner -->
-        <img src="../../images/SacramentoRunningEventsBanner_resize.png" alt="Sacramento Running Events Banner" class="hero-banner">
+        <img src="SacramentoRunningEventsBanner_resize.png" alt="Sacramento Running Events Banner" class="hero-banner">
 
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html"></a>
+            <a class="navbar-brand" href="index.html"></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -33,12 +33,12 @@
 
                 <!-- Home -->
                 <li class="nav-item">
-                  <a class="nav-link" href="../index.html">Home</a>
+                  <a class="nav-link" href="index.html">Home</a>
                 </li>
 
                 <!-- Events -->
                 <li class="nav-item">
-                  <a class="nav-link" href="../events.html">Events</a>
+                  <a class="nav-link" href="events.html">Events</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Event List
@@ -64,13 +64,13 @@
                       <li><hr class="dropdown-divider"></li>
                       
                       <!-- All Events -->
-                      <li><a class="dropdown-item text-light" href="../events.html">All Events</a></li>
+                      <li><a class="dropdown-item text-light" href="events.html">All Events</a></li>
                     </ul>
                   </li>
 
                   <!-- Contact/More Info -->
                   <li class="nav-item">
-                    <a class="nav-link" href="../contact.html">Contact/More Info</a>
+                    <a class="nav-link" href="contact.html">Contact/More Info</a>
                   </li>
               </ul>
             </div>
@@ -78,22 +78,23 @@
         </nav>
 
         <!-- Event Title -->
-        <h1>Davis Labor Day Run</h1>
+        <h1>Urban Cow</h1>
 
     </header>
 
     <!-- Event Information -->
     <section class="event-info my-4">
         <div class="d-flex align-items-start">
-            <img src="../../images/events/labor-day.png"
-                alt="Davis Labor Day Run poster"
+            <img src="urban-cow.png"
+                alt="Urban Cow poster"
                 class="me-3" style="max-width:150px;">
             <div class="event-text py-4">
-                <p><strong>Date:</strong> Monday, September 1, 2025</p>
-                <p><strong>Location:</strong> Davis, CA</p>
+                <p><strong>Date:</strong> Sunday, September 28, 2025</p>
+                <p><strong>Location:</strong> Sacramento, CA</p>
                 <p>
-                    Enjoy a flat and fast course through downtown and South Davis.
-                    Perfect for beginners and experienced runners alike.
+                    Mark your cowlendar and join the herd!
+                    This course showcases Sacramento's most iconic neighborhoods and landmarks: 
+                    Capitol Mall, DOCO, Old Sacramento, Tower Bridge, the Sacramento River, and more!
                 </p>
             </div>
         </div>
@@ -106,12 +107,12 @@
                 <div class="card-body">
                     <h2 class="h4 mb-3">Registration</h2>
 
-                <form action="https://formspree.io/f/xldlqqkz" method="post" class="row g-3">
+                <form action="https://formspree.io/f/mrbazynw" method="post" class="row g-3">
 
                     <!-- Hidden event info sent to formspree -->
-                    <input type="hidden" name="event_name" value="Davis Labor Day Run">
-                    <input type="hidden" name="event_date" value="2025-09-01">
-                    <input type="hidden" name="event_location" value="Davis">
+                    <input type="hidden" name="event_name" value="Urban Cow">
+                    <input type="hidden" name="event_date" value="2025-09-28">
+                    <input type="hidden" name="event_location" value="Sacramento">
 
                     <!-- First Name -->
                     <div class="col-md-6">
@@ -135,12 +136,12 @@
                     <fieldset class="col-12">
                         <legend class="col-form-label pt-0">Choose a distance<span class="text-danger">*</span></legend>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="distance" id="dist5k" value="5K" required>
+                            <input class="form-check-input" type="radio" name="distance" id="dist5k" value="5k" required>
                             <label class="form-check-label" for="dist5k">5K</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="distance" id="dist10k" value="10K">
-                            <label class="form-check-label" for="dist10k">10K</label>
+                            <input class="form-check-input" type="radio" name="distance" id="disthm" value="hm">
+                            <label class="form-check-label" for="disthm">Half Marathon</label>
                         </div>
                     </fieldset>
 
@@ -199,9 +200,9 @@
     <footer class="bg-dark text-light text-center py-3 mt-5">
       <p class="mb-0">&copy; 2025 Sacramento Running Events</p>
       <nav>
-        <a href="../index.html" class="text-light mx-2">Home</a>
-        <a href="../events.html" class="text-light mx-2">Events</a>
-        <a href="../contact.html" class="text-light mx-2">Contact</a>
+        <a href="index.html" class="text-light mx-2">Home</a>
+        <a href="events.html" class="text-light mx-2">Events</a>
+        <a href="contact.html" class="text-light mx-2">Contact</a>
       </nav>
     </footer>
 
